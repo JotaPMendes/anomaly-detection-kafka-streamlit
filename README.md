@@ -146,15 +146,3 @@ O sistema possui um modo de demonstração onde você pode facilmente testar a d
 2. Use o formulário "Gerar Transação Anômala para Demonstração"
 3. O sistema criará automaticamente uma transação que será detectada como anômala
 4. Você verá um alerta na interface e, se configurado, receberá um e-mail
-
-## 🤝 Contribuindo
-
-1. Faça um fork do projeto
-2. Crie uma branch para sua feature (`git checkout -b feature/nova-feature`)
-3. Faça commit das suas alterações (`git commit -m 'Adiciona nova feature'`)
-4. Faça push para a branch (`git push origin feature/nova-feature`)
-5. Abra um Pull Request
-
----
-
-Desenvolvido como projeto acadêmico para o quinto semestre do curso de Ciência da Computação.
