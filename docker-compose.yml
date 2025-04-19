@@ -104,22 +104,6 @@ services:
     networks:
       - poc-network
 
-  # Serviço opcional para consumidores Kafka
-  # kafka-consumer:
-  #   build:
-  #     context: .
-  #     dockerfile: Dockerfile.consumer
-  #   container_name: poc-kafka-consumer
-  #   depends_on:
-  #     - kafka
-  #   networks:
-  #     - poc-network
-  #   volumes:
-  #     - ./app:/app/app
-  #   environment:
-  #     - KAFKA_BOOTSTRAP_SERVERS=kafka:29092
-  #     - KAFKA_TOPIC=transacoes
-
 volumes:
   postgres_data:
 
